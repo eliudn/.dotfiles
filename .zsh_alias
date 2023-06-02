@@ -1,0 +1,13 @@
+#ALIAS
+
+alias ls="lsd"
+alias l="ls -l"
+alias la="ls -a"
+alias lla="ls -al"
+alias lt="ls --tree"
+alias cat="bat"
+alias cata="bat -A"
+
+alias v="nvim"
+
+alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
