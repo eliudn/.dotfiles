@@ -1,5 +1,7 @@
 #ALIAS
 
+alias rz="source .zshrc"
+
 alias ls="lsd"
 alias l="ls -l"
 alias la="ls -a"

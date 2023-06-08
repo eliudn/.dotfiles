@@ -5,7 +5,7 @@
 -- variable
 local opt = vim.opt
 local g = vim.g
-
+local cmd = vim.cmd
 ---------------------------------------
 -- General
 ---------------------------------------
@@ -13,7 +13,7 @@ opt.mouse       = "a"
 opt.clipboard   = "unnamedplus"         --copia en el portapapeles
 opt.completeopt = {"menuone","noselect"}-- Autocomplete options
 opt.ruler       = true
-opt.cursorline  = true                  -- cursor en linea
+--opt.cursorline  = true                  -- cursor en linea Horizontal
 
 ---------------------------------------
 -- Neovim UI                              
@@ -32,6 +32,9 @@ opt.smartcase       = true          -- Ignore lowercase for the whole patten
 opt.relativenumber  = true 
 opt.laststatus      = 3             -- set global status
 
+--g.indet_blankline_char = '|'
+opt.list            =true
+--opt.listchars:append "sapce:·"  --
 ---------------------------------------
 -- Tabs, indent                          
 ---------------------------------------
